@@ -66,9 +66,7 @@ local default_plugins = {
       require("indent_blankline").setup(opts)
     end,
   },
-
-  {
-    "nvim-treesitter/nvim-treesitter",
+{ "nvim-treesitter/nvim-treesitter",
     event = { "BufReadPost", "BufNewFile" },
     cmd = { "TSInstall", "TSBufEnable", "TSBufDisable", "TSModuleInfo" },
     build = ":TSUpdate",
