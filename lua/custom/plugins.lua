@@ -1,4 +1,5 @@
 local plugins = {
+  { "andweeb/presence.nvim" },
   { "nvim-neotest/nvim-nio" },
   {
     "rcarriga/nvim-dap-ui",
