@@ -46,6 +46,8 @@ vim.api.nvim_command('command! RelLine lua vim.opt.relativenumber = true')
 vim.api.nvim_command('command! RelLineOff lua vim.opt.relativenumber = false')
 vim.api.nvim_command('command! ErrGo lua InsertGoErrSnippet()')
 
+vim.opt.colorcolumn = "80"
+
 function InsertGoErrSnippet()
   local lines = {
     "if err != nil {",
