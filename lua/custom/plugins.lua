@@ -107,6 +107,7 @@ local plugins = {
       ensure_installed = {
         "lua-language-server",
         "clang-format",
+        "clangd",
         "codelldb",
       }
     }
