@@ -109,8 +109,12 @@ local plugins = {
         "clang-format",
         "clangd",
         "codelldb",
+        "jdtls",
       }
     }
-  }
+  },
+  {
+    "mfussenegger/nvim-jdtls",
+  },
 }
 return plugins
