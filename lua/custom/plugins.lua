@@ -1,4 +1,5 @@
 local plugins = {
+  { 'ThePrimeagen/vim-be-good'},
   { "andweeb/presence.nvim" },
   { "nvim-neotest/nvim-nio" },
   {
